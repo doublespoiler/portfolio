@@ -55,6 +55,7 @@ blockquote{
 }
 
 .card{
+  box-shadow: 0 4px 20px 0 var(--primary), 0 4px 30px 0 var(--primary);
   background-color: var(--lightshade);
   color: var(--textdark);
 }
@@ -90,12 +91,6 @@ blockquote{
   /* border: 1px solid black; */
   align-items: center;
   background-color: var(--darkshade)
-}
-
-
-
-.content-row{
-
 }
 
 .header-row{
@@ -151,6 +146,6 @@ a:hover{
   padding-bottom: 1em;
 }
 
-.card{
-  box-shadow: 0 4px 20px 0 var(--primary), 0 4px 30px 0 var(--primary);
+.whisper-text{
+  font-size:x-small;
 }
