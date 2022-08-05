@@ -2,7 +2,7 @@
 
 #### By _**Skylan Lew**_
 
-#### _My portfolio website_
+[https://doublespoiler.github.io/portfolio](https://doublespoiler.github.io/portfolio)
 
 ## Technologies Used
 
@@ -13,16 +13,18 @@
 
 ## Description
 
-_{This is a detailed description of your application. Give as much detail as needed to explain what the application does as well as any other information you want users or other developers to have.}_
+Portfolio website using Bootstrap grid system. I rethemed using my own CSS, 
 
 ## Setup/Installation Requirements
 
 * Tested on Chrome v104.0.5112.81
-*  Might need to right click > Open With to open with a web browser instead of an IDE or Notepad
+* Might need to right click > Open With to open with a web browser instead of an IDE or Notepad
 
 ## Known Bugs
 
 * After click, the button turns and stays blue.
+* On hover, the button stays blue.
+* The hotswap socket for my T key needs to be resoldered.
 
 ## License
 [GNU GPL3.0](https://choosealicense.com/licenses/gpl-3.0/)

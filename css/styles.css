@@ -1,6 +1,6 @@
 :root{
     --brand: #2f243b;
-    --darkshade: #151319;
+    --darkshade: #1c1920;
     --darkaccent: #515fb1;
     --lightshade: #c5c2b9;
     --lightaccent: #627898;
@@ -17,13 +17,10 @@ a:active{
   color:var(--brand);
 }
 
-a:hover{
-  color:var(--lightaccent);
-  text-decoration:none;
-}
+
 
 a, a:visited{
-  color:var(--textlight);
+  color: var(--textlight);
 }
 
 body{
@@ -31,13 +28,11 @@ body{
   color: var(--darkshade);
 }
 
-.blank-col{
-  
+.blank-divider{
+  background-color: transparent;
 }
 
-.blank-divider{
-  flex: 3 0;
-}
+
 
 .btn-primary{
   border: none;
@@ -76,50 +71,64 @@ body{
 }
 
 .col-xs-12{
-  padding-bottom:0.5em;
+  padding-bottom: 0.5em;
 }
 
 .col-sm-12{
-  padding-bottom:0.5em;
+  padding-bottom: 0.5em;
 }
 
 .container{
-  max-width:1500px;
-  margin:auto;
-  margin-bottom:1em;
-  padding-bottom:1em;
-  border: 1px solid black;
+  max-width: 1500px;
+  margin: auto;
+  margin-bottom:1 em;
+  padding-bottom: 1em;
+  /* border: 1px solid black; */
+  align-items: center;
   background-color: var(--darkshade)
 }
 
 .header-row{
-  background-color:var(--brand);
+  background-color: var(--brand);
   color: var(--lightshade);
-  margin-bottom:1em;
+  margin-bottom: 1em;
+  border-radius: 0.2rem;
 }
 
 .header-text{
-  display:inline;
+  display: inline;
 }
 
 .logo {
-  width:100px;
+  width: 100px;
 }
 
 .logo-div{
-  flex:5 5;
-  padding:0.5em;
-  margin-left:0.5em;
-  font-size:3em;
+  flex: 5 5;
+  padding: 0.5em;
+  margin-left: 0.5em;
+  font-size: 3em;
 }
 
 .navbar{
-  display:flex;
+  display: flex;
   box-sizing: border-box;
-  padding:0.5em;
-  float:right;
-  align-items:flex-end;
-  text-align:flex-end;
-  font-size:1.5em;
+  padding: 0.5em;
+  float: right;
+  font-size: 1.5em;
+  justify-content: flex-end;
+  align-items: flex-end;
 }
 
+.navbar .blank-divider{
+  flex: 3 0;
+}
+
+.wrapper{
+  background-color:inherit;
+}
+
+a:hover{
+  color: var(--lightaccent);
+  text-decoration: none;
+}
