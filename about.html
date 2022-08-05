@@ -7,53 +7,58 @@
 </head>
 <body>
   <div class="container">
-  <div class="wrapper jumbotron">
-    <div class="row header-row" class="rounded">
-      <div class="logo-div col-6">
+    <div class="row header-row">
+      <div class="logo-div col-md-6">
         <img class="logo" src="images/epicodus.png" alt="My logo"> Skylan Lew
       </div>
-      <div class="blank-divider col-4">
-      </div>
-      <div class="navbar text-right">
-          <a href="index.html">Home</a>&nbsp;
-          <a href="work.html">Work</a>&nbsp;
-          <a href="about.html">About</a>
+      <div class="navbar">
+        <a href="index.html">Home</a>
+        <a href="work.html">Work</a>
+        <a href="about.html">About</a>
       </div>
     </div>    <!-- end div header -->
     <div class="row content-row">
-      <div class="col-4">
+      <div class="col-md-4 col-xs-12"">
         <div class="card">
-          <img class="card-img-top" src="..." alt="AAA">
           <div class="card-body">
-            <h2 class="card-title"></h2>
-            <p class="card-text"></p>
+            <h2 class="card-title">Certs</h2>
+            <ul class="card-text">
+              <li>CompTIA A+ Hardware/Software</li>
+              <li>CompTIA A+ Network</li>
+              <li>AZ DPS Level One Fingerprint Clearance</li>
+            </ul>
           </div>
         </div>
       </div>    <!-- end col-->
-      <div class="col-4">
+      <div class="col-md-4 col-xs-12"">
         <div class="card">
-          <img class="card-img-top" src="..." alt="AAA">
-          <div class="card-body">
-            <h2 class="card-title">Certifications</h2>
-            <p class="card-text"></p>
-          </div>
-        </div>
-      </div>    <!-- end col-->
-      <div class="col-4">
-        <div class="card">
-          <img class="card-img-top" src="..." alt="AAA">
           <div class="card-body">
             <h2 class="card-title">Social Media</h2>
             <p class="card-text"></p>
-            <a href="http://twitter.com/sslew_" class="btn btn-primary">Twitter</a>
-            <a href="https://www.linkedin.com/in/skylanlew/" class="btn btn-primary">Linkedin</a>
-            <a href="https://github.com/doublespoiler" class="btn btn-primary">Github</a>
+            <button href="http://twitter.com/sslew_" class="btn btn-primary">Twitter</button>
+            <button href="https://www.linkedin.com/in/skylanlew/" class="btn btn-primary">Linkedin</button>
+            <button href="https://github.com/doublespoiler" class="btn btn-primary">Github</button>
+          </div>
+        </div>
+      </div>    <!-- end col-->
+      <div class="col-md-4 col-xs-12"">
+        <div class="card">
+          <div class="card-body">
+            <h2 class="card-title">Contact</h2>
+            <form class="card-text form-group">
+              <label for="emailFormMail">Email:</label>
+              <input type="email" class="form-control" id="emailFormMail" placeholder="name@website.com">
+              <label for="emailFormName">Name:</label>
+              <input type="name" class="form-control" id="emailFormName" placeholder="name">
+              <label for="emailFormMessage">Message:</label>
+              <textarea class="form-control" id="emailFormMessage" rows="3"></textarea>
+              <button type="submit" class="btn btn-primary button-submit">Submit</button>
+            </form>
           </div>
         </div>
       </div>    <!-- end col-->
     </div>    <!-- end row-->
-  </div>    <!-- end div container -->
-  </div>
+  </div> <!-- end div container -->
   <script src="js/bootstrap.js"></script>   <!-- Bootstrap JS -->
 </body>
 </html>

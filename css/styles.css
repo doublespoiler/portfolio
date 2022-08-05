@@ -1,23 +1,24 @@
 :root{
-    --brand: #2f243b;
-    --darkshade: #1c1920;
-    --darkaccent: #515fb1;
-    --lightshade: #c5c2b9;
-    --lightaccent: #627898;
-    --textlight: #c5c2b9;
-    --textdark: #151319;
-    --primary: #2f243b;
-    --info: #000000;
-    --success: #43854a;
-    --warning: #c17512;
-    --danger: #f44336;
+  /* bootstrap colors, replacing them didn't work for buttons. */
+  --primary: #2f243b;
+  --info: #151319;
+  --success: #43854a;
+  --warning: #c17512;
+  --danger: #f44336;
+  /* custom colors */
+  --brand: var(--primary);
+  --darkshade: #1c1920;
+  --darkaccent: #515fb1;
+  --lightshade: #c5c2b9;
+  --lightaccent: #627898;
+  /* text colors */
+  --textlight: var(--lightshade);
+  --textdark: var(--darkshade);
 }
 
 a:active{
-  color:var(--brand);
+  color:var(--primary);
 }
-
-
 
 a, a:visited{
   color: var(--textlight);
@@ -28,11 +29,13 @@ body{
   color: var(--darkshade);
 }
 
-.blank-divider{
-  background-color: transparent;
+button{
+  margin-top: 1em;
 }
 
-
+blockquote{
+  padding: 0.5em;
+}
 
 .btn-primary{
   border: none;
@@ -44,6 +47,11 @@ body{
   border: none;
   background-color: var(--darkaccent);
   color: var(--textlight);
+}
+
+.button-submit{
+  margin-top: 1em;
+  margin-right: 1em;
 }
 
 .card{
@@ -70,11 +78,7 @@ body{
   color: var(--darkshade);
 }
 
-.col-xs-12{
-  padding-bottom: 0.5em;
-}
-
-.col-sm-12{
+.col-xs-12, .col-sm-12{
   padding-bottom: 0.5em;
 }
 
@@ -88,40 +92,42 @@ body{
   background-color: var(--darkshade)
 }
 
+
+
+.content-row{
+
+}
+
 .header-row{
-  background-color: var(--brand);
+  background-color: var(--primary);
   color: var(--lightshade);
   margin-bottom: 1em;
   border-radius: 0.2rem;
-}
-
-.header-text{
-  display: inline;
+  justify-content:space-between;
 }
 
 .logo {
-  width: 100px;
+  width: 50px;
+  padding-bottom: 0.25em;
 }
 
 .logo-div{
-  flex: 5 5;
-  padding: 0.5em;
+  display: inline;
+  line-height: 2em;
+  flex-grow: 3;
+  margin: 0.5em;
   margin-left: 0.5em;
   font-size: 3em;
 }
 
 .navbar{
   display: flex;
+  flex: 0 0 300px;
   box-sizing: border-box;
-  padding: 0.5em;
-  float: right;
-  font-size: 1.5em;
-  justify-content: flex-end;
+  margin:1em;
   align-items: flex-end;
-}
-
-.navbar .blank-divider{
-  flex: 3 0;
+  justify-content: space-between;
+  font-size: 1.5em;
 }
 
 .wrapper{
@@ -131,4 +137,20 @@ body{
 a:hover{
   color: var(--lightaccent);
   text-decoration: none;
+}
+
+.blockquote {
+  font-size: 2em;
+  padding-bottom: 0em;
+}
+
+.blockquote-footer {
+  font-size: 1.5em;
+  padding-top: 0em;
+  padding-left: 2em;
+  padding-bottom: 1em;
+}
+
+.card{
+  box-shadow: 0 4px 20px 0 var(--primary), 0 4px 30px 0 var(--primary);
 }
