@@ -1,0 +1,35 @@
+body{
+  background-color:#3a3a3a;
+}
+
+.container{
+  margin:auto;
+  max-width:1500px;
+  border: 1px solid black;
+  font-color:white;
+}
+
+.logo-div{
+  flex:5 5;
+  padding:0.5em;
+  margin-left:0.5em;
+}
+
+.logo {
+  width:100px;
+}
+
+.navbar{
+  float:right;
+  align-items:flex-end;
+  display:inline;
+  font-size:1.5em;
+  display:flex;
+  text-align:flex-end;
+  padding:0.5em;
+  box-sizing: border-box;
+}
+
+.blank-divider{
+  flex: 3 0;
+}

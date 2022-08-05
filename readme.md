@@ -1,4 +1,4 @@
-# _PORTFOLIO_
+# PORTFOLIO
 
 #### By _**Skylan Lew**_
 
@@ -6,10 +6,10 @@
 
 ## Technologies Used
 
-* _HTML_
-* _CSS_
-* _github pages_
-* _Bootstrap_
+* HTML
+* CSS
+* github pages
+* Bootstrap
 
 ## Description
 
@@ -17,8 +17,8 @@ _{This is a detailed description of your application. Give as much detail as nee
 
 ## Setup/Installation Requirements
 
-* _Tested on Chrome v104.0.5112.81_
-*  _Might need to right click > Open With to open with a web browser instead of an IDE or Notepad
+* Tested on Chrome v104.0.5112.81
+*  Might need to right click > Open With to open with a web browser instead of an IDE or Notepad
 
 ## Known Bugs
 
