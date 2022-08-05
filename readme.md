@@ -1,8 +1,7 @@
 # PORTFOLIO
 
-#### By _**Skylan Lew**_
-
 [https://doublespoiler.github.io/portfolio](https://doublespoiler.github.io/portfolio)
+#### By _**Skylan Lew**_
 
 ## Technologies Used
 
@@ -13,7 +12,7 @@
 
 ## Description
 
-Portfolio website using Bootstrap grid system. I rethemed using my own CSS, 
+Portfolio website using Bootstrap grid system. I rethemed using my own CSS.
 
 ## Setup/Installation Requirements
 
@@ -23,8 +22,9 @@ Portfolio website using Bootstrap grid system. I rethemed using my own CSS,
 ## Known Bugs
 
 * After click, the button turns and stays blue.
-* On hover, the button stays blue.
+* Contact sheet doesn't do anything
 * The hotswap socket for my T key needs to be resoldered.
+* bootstrap.js included in case I want to try to use Bootstrap's js
 
 ## License
 [GNU GPL3.0](https://choosealicense.com/licenses/gpl-3.0/)

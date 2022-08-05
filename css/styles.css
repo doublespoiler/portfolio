@@ -16,10 +16,6 @@
   --textdark: var(--darkshade);
 }
 
-a:active{
-  color:var(--primary);
-}
-
 a, a:visited{
   color: var(--textlight);
 }
@@ -148,4 +144,8 @@ a:hover{
 
 .whisper-text{
   font-size:x-small;
+}
+
+.this-page{
+  color: var(--lightaccent);
 }
