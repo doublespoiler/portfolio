@@ -22,7 +22,7 @@ _{This is a detailed description of your application. Give as much detail as nee
 
 ## Known Bugs
 
-* None
+* After click, the button turns and stays blue.
 
 ## License
 [GNU GPL3.0](https://choosealicense.com/licenses/gpl-3.0/)

@@ -1,67 +1,78 @@
-body{
-  background-color: #281e19;
-}
-
-a, a:visited{
-  color:#7b7b7e;
+:root{
+    --brand: #2f243b;
+    --darkshade: #151319;
+    --darkaccent: #515fb1;
+    --lightshade: #c5c2b9;
+    --lightaccent: #627898;
+    --textlight: #c5c2b9;
+    --textdark: #151319;
+    --primary: #2f243b;
+    --info: #000000;
+    --success: #43854a;
+    --warning: #c17512;
+    --danger: #f44336;
 }
 
 a:active{
-  color:#7b7b7e;
+  color:var(--brand);
 }
 
 a:hover{
-  color:#3f3f3f;
+  color:var(--lightaccent);
   text-decoration:none;
 }
 
-.container{
-  margin:auto;
-  margin-bottom:1em;
-  /* max-width:1500px; */
-  border: 1px solid black;
-  font-color:white;
-  padding-bottom:1em;
+a, a:visited{
+  color:var(--textlight);
 }
 
-.logo-div{
-  flex:5 5;
-  padding:0.5em;
-  margin-left:0.5em;
-  font-size:3em;
-}
-
-.logo {
-  width:100px;
-}
-
-.navbar{
-  float:right;
-  align-items:flex-end;
-  display:inline;
-  font-size:1.5em;
-  display:flex;
-  text-align:flex-end;
-  padding:0.5em;
-  box-sizing: border-box;
-}
-
-.blank-divider{
-  flex: 3 0;
-}
-
-.header-text{
-  display:inline;
+body{
+  background-color: var(--darkshade);
+  color: var(--darkshade);
 }
 
 .blank-col{
   
 }
 
-.header-row{
-  background-color:#3f3f3f;
-  color:white;
-  margin-bottom:1em;
+.blank-divider{
+  flex: 3 0;
+}
+
+.btn-primary{
+  border: none;
+  background-color: var(--primary);
+  color: var(--textlight);
+}
+
+.btn-primary:focus, .btn-primary:hover{
+  border: none;
+  background-color: var(--darkaccent);
+  color: var(--textlight);
+}
+
+.card{
+  background-color: var(--lightshade);
+  color: var(--textdark);
+}
+
+.card-accent{
+  background-color: var(--lightaccent);
+  color: var(--textdark);
+}
+
+.card-dark{
+  background-color: var(--darkshade);
+  color: var(--textlight);
+}
+
+.card-dark-accent{
+  background-color: var(--darkaccent);
+  color: var(--textlight);
+}
+
+.card-title{
+  color: var(--darkshade);
 }
 
 .col-xs-12{
@@ -71,3 +82,44 @@ a:hover{
 .col-sm-12{
   padding-bottom:0.5em;
 }
+
+.container{
+  max-width:1500px;
+  margin:auto;
+  margin-bottom:1em;
+  padding-bottom:1em;
+  border: 1px solid black;
+  background-color: var(--darkshade)
+}
+
+.header-row{
+  background-color:var(--brand);
+  color: var(--lightshade);
+  margin-bottom:1em;
+}
+
+.header-text{
+  display:inline;
+}
+
+.logo {
+  width:100px;
+}
+
+.logo-div{
+  flex:5 5;
+  padding:0.5em;
+  margin-left:0.5em;
+  font-size:3em;
+}
+
+.navbar{
+  display:flex;
+  box-sizing: border-box;
+  padding:0.5em;
+  float:right;
+  align-items:flex-end;
+  text-align:flex-end;
+  font-size:1.5em;
+}
+
