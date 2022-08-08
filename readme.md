@@ -1,7 +1,8 @@
 # PORTFOLIO
 
+ By _**Skylan Lew**_
+
 [https://doublespoiler.github.io/portfolio](https://doublespoiler.github.io/portfolio)
-#### By _**Skylan Lew**_
 
 ## Technologies Used
 
@@ -25,10 +26,10 @@ Portfolio website using Bootstrap grid system. I rethemed using my own CSS.
 * Contact sheet doesn't do anything
 * The hotswap socket for my T key needs to be resoldered.
 * bootstrap.js included in case I want to try to use Bootstrap's js
-
+  
 ## License
+
 [GNU GPL3.0](https://choosealicense.com/licenses/gpl-3.0/)
 
 Please contact me if you have an issues, or just want to talk about things. skylanslew(at)gmail
 
-Copyright (c) 08/2022 Skylan Lew
