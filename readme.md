@@ -33,3 +33,4 @@ Portfolio website using Bootstrap grid system. I rethemed using my own CSS.
 
 Please contact me if you have an issues, or just want to talk about things. skylanslew(at)gmail
 
+Copyright (c) 2022 Skylan Lew
