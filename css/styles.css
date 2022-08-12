@@ -112,13 +112,14 @@ blockquote{
 }
 
 .navbar{
-  display: flex;
-  flex: 0 0 300px;
+  display:flex;
+  flex: 0 0 175px;
   box-sizing: border-box;
   margin:1em;
   align-items: flex-end;
   justify-content: space-between;
   font-size: 1.5em;
+  float:right;
 }
 
 .wrapper{
