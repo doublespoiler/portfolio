@@ -1,17 +1,9 @@
 :root{
-  /* bootstrap colors, replacing them didn't work for buttons. */
-  --primary: #2f243b;
-  --info: #151319;
-  --success: #43854a;
-  --warning: #c17512;
-  --danger: #f44336;
-  /* custom colors */
   --brand: var(--primary);
   --darkshade: #1c1920;
   --darkaccent: #515fb1;
   --lightshade: #c5c2b9;
   --lightaccent: #627898;
-  /* text colors */
   --textlight: var(--lightshade);
   --textdark: var(--darkshade);
 }
@@ -82,9 +74,8 @@ blockquote{
 .container{
   max-width: 1500px;
   margin: auto;
-  margin-bottom:1 em;
+  margin-bottom: 1 em;
   padding-bottom: 1em;
-  /* border: 1px solid black; */
   align-items: center;
   background-color: var(--darkshade)
 }
@@ -112,18 +103,18 @@ blockquote{
 }
 
 .navbar{
-  display:flex;
+  display: flex;
   flex: 0 0 175px;
   box-sizing: border-box;
-  margin:1em;
+  margin: 1em;
+  float: right;
   align-items: flex-end;
   justify-content: space-between;
   font-size: 1.5em;
-  float:right;
 }
 
 .wrapper{
-  background-color:inherit;
+  background-color: inherit;
 }
 
 a:hover{

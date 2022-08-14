@@ -4,6 +4,8 @@ By _**Skylan Lew**_
 
 [https://doublespoiler.github.io/portfolio](https://doublespoiler.github.io/portfolio)
 
+### My portfolio website for Epicodus project 1 (Git, HTML, CSS)
+
 ## Technologies Used
 
 * HTML
@@ -18,7 +20,12 @@ Portfolio website using Bootstrap grid system. I rethemed using my own CSS.
 ## Setup/Installation Requirements
 
 * Tested on Chrome v104.0.5112.81
-* Might need to right click > Open With to open with a web browser instead of an IDE or Notepad
+* To clone:
+  * git clone https://github.com/doublespoiler/portfolio
+  * OR
+  * Navigate to the repository, click the "Code" button, and "Download Zip".  You will need to unzip this folder to a place you can access.
+* open index.html located in the portfolio-main folder in your web browser or IDE/text editor
+  * alternatively, access through [Github Pages https://doublespoiler.github.io/portfolio](https://doublespoiler.github.io/portfolio)
 
 ## Known Bugs
 
