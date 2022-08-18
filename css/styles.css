@@ -1,4 +1,11 @@
 :root{
+    /* bootstrap colors, replacing them didn't work for buttons. */
+    --primary: #2f243b;
+    --info: #151319;
+    --success: #43854a;
+    --warning: #c17512;
+    --danger: #f44336;
+    /* custom colors */
   --brand: var(--primary);
   --darkshade: #1c1920;
   --darkaccent: #515fb1;
